@@ -1,5 +1,5 @@
 import { ChangeEvent, FunctionComponent, useState, FormEvent } from "react";
-import { EXAMPLE_TOKEN_ADDRESS } from "@/configuration/contracts";
+import { EXAMPLE_TOKEN_ADDRESS } from "../configuration/contracts";
 import { isAddress } from 'web3-validator';
 
 export interface InputAddressProps {

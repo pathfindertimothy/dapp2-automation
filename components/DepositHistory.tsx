@@ -1,5 +1,5 @@
-import { CHAIN_INFO } from "@/configuration/contracts";
-import { useAppStore } from "@/store/app";
+import { CHAIN_INFO } from "../configuration/contracts";
+import { useAppStore } from "../store/app";
 import { FunctionComponent, useEffect, useState } from "react";
 
 interface DepositEvent {

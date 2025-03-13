@@ -1,6 +1,6 @@
 import { FunctionComponent, useEffect, useState } from "react";
-import { useAppStore } from "@/store/app";
-import { EXAMPLE_TOKEN_ADDRESS, IERC20_TOKEN_CONTRACT_ABI } from "@/configuration/contracts";
+import { useAppStore } from "../store/app";
+import { EXAMPLE_TOKEN_ADDRESS, IERC20_TOKEN_CONTRACT_ABI } from "../configuration/contracts";
 
 const TokenBalance: FunctionComponent = () => {
     const {

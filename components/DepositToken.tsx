@@ -1,6 +1,6 @@
 import { ChangeEvent, FunctionComponent, useEffect, useState } from "react";
-import { IERC20_TOKEN_CONTRACT_ABI, SMART_CONTRACT_ADDRESS } from "@/configuration/contracts";
-import { useAppStore } from "@/store/app";
+import { IERC20_TOKEN_CONTRACT_ABI, SMART_CONTRACT_ADDRESS } from "../configuration/contracts";
+import { useAppStore } from "../store/app";
 
 const DepositToken: FunctionComponent = () => {
 

@@ -1,5 +1,5 @@
-import { CHAIN_INFO, SMART_CONTRACT_ABI, SMART_CONTRACT_ADDRESS } from "@/configuration/contracts";
-import { useAppStore } from "@/store/app";
+import { CHAIN_INFO, SMART_CONTRACT_ABI, SMART_CONTRACT_ADDRESS } from "../configuration/contracts";
+import { useAppStore } from "../store/app";
 import { FunctionComponent, useEffect, useState } from "react";
 import Web3 from "web3";
 

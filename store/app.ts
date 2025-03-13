@@ -1,4 +1,4 @@
-import { TokenInfo } from "@/types/token";
+import { TokenInfo } from "../types/token";
 import Web3 from "web3";
 import { create } from "zustand";
 

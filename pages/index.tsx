@@ -1,9 +1,9 @@
-import TokenBalance from "@/components/TokenBalance";
-import DepositHistory from "@/components/DepositHistory";
-import DepositToken from "@/components/DepositToken";
-import InputAddress from "@/components/InputAddress";
-import MetaMaskConnector from "@/components/MetaMaskConnector";
-import { useAppStore } from "@/store/app";
+import TokenBalance from "../components/TokenBalance";
+import DepositHistory from "../components/DepositHistory";
+import DepositToken from "../components/DepositToken";
+import InputAddress from "../components/InputAddress";
+import MetaMaskConnector from "../components/MetaMaskConnector";
+import { useAppStore } from "../store/app";
 import Head from "next/head";
 import { FunctionComponent } from "react";
 
