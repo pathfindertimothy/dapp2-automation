@@ -39,6 +39,6 @@ next-env.d.ts
 node_modules
 reports
 /reports
-download
-/download
+downloads
+/downloads
 /e2e/downloads/
