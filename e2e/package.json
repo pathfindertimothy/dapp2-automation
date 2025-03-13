@@ -1,0 +1,22 @@
+{
+  "name": "dapp-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:e2e": "npx cypress run --browser chrome --headed --reporter cypress-mochawesome-reporter"
+  },
+  "author": "timothy",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@synthetixio/synpress": "^4.0.10",
+    "cypress": "^14.2.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "module": "es6",
+      "target": "es5",
+      "types": ["cypress"],
+      "esModuleInterop": true,
+      "baseUrl": "http://localhost:3000",
+    },
+    "include": ["old_cypress.config_old.ts", "test", "src"],
+    "files": ["environment.d.ts"]
+}
