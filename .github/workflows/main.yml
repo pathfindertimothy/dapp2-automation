@@ -15,5 +15,5 @@ jobs:
         with:
           install-command: npm install
           build: npm run build
-          start: npm start
+          start: npm run start
           browser: chrome
